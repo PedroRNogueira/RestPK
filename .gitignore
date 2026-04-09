@@ -1,0 +1,30 @@
+# Ignore Claude config
+.claude/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build artifacts (if any later)
+build/
+dist/
+out/
+
+# IDE/VS Code
+.vscode/
+.idea/
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Node modules (if using any JS tools)
+node_modules/
