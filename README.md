@@ -1,41 +1,33 @@
 # RestPK
 
-## Quick Overview
-RestPK is a **Pokémon‑style game** built on top of the classic **Tibia** engine.  The project is currently focused on establishing a clean repository structure, base documentation, and tooling foundation so that core gameplay can be added in a well‑organized way.
+## Visão geral
+RestPK é um projeto de jogo inspirado na base do Tibia com temática de Pokémon.  
+O foco atual do projeto é organizar a fundação técnica e documental, para que a evolução futura aconteça de forma controlada e consistente.
 
-## Current Focus
-- Create a reproducible project layout.
-- Provide reference documentation for future developers.
-- Prepare the repo for continuous delivery (git history, branch strategy, CI‑ready configuration).
+## Estado atual do projeto
+No momento, o projeto está concentrado em:
+- estruturar corretamente o repositório
+- alinhar a documentação principal
+- definir regras permanentes para trabalho com agente
+- preparar a base para o futuro bootstrap técnico da stack OT
 
-## Planned Stack
-- **Server**: TFS (Tibia Server) Canary build.
-- **Client**: OTClient (mehah / OpenTibiaBR).
-- **Map Editor**: Remere's Map Editor.
-- **Languages**: C++ (server/client), Lua (scripting).
+Ainda não há implementação de gameplay.
 
-## Repository Structure
-```
-├─ docs/          # docs, roadmaps, vision, setup
-├─ server/        # server source, config
-├─ client/        # client source, assets
-├─ map/           # map data
-├─ assets/        # shared game assets
-├─ tools/         # helper scripts
-├─ PROJECT_RULES.md
+## Stack planejada
+- **Servidor**: Canary
+- **Cliente**: OTClient mehah / OpenTibiaBR
+- **Editor de mapa**: Remere's Map Editor
+- **Linguagens principais**: C++ e Lua
+
+## Estrutura atual do repositório
+```text
+├─ docs/              # documentação do projeto
+├─ server/            # base futura do servidor
+├─ client/            # base futura do cliente
+├─ map/               # arquivos relacionados ao mapa
+├─ assets/            # recursos do projeto
+├─ tools/             # scripts e utilitários auxiliares
+├─ AGENT_RULES.md     # regras permanentes do agente
+├─ PROJECT_RULES.md   # regras resumidas do projeto
 ├─ README.md
 └─ .gitignore
-```
-
-## Project Status
-- All directories created.
-- Documentation skeleton committed.
-- No gameplay code yet – the first real step will be the server and client bootstrap.
-
-## Next Steps
-1. Populate `docs/setup.md` with a detailed environment checklist.
-2. Begin server configuration and basic networking.
-3. On a subsequent PR, add the first playable loop.
-
----
-*This file is frequently updated to reflect the current state of the project.*
