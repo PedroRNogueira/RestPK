@@ -12,14 +12,14 @@
   - criação de conteúdo jogável
 
 ## Fase 2: Setup técnico da stack OT
-- **Objetivo**: documentar e preparar o ambiente técnico nécessário para trabalhar com o ecossistema OT.
+- **Objetivo**: documentar e preparar o ambiente técnico necessário para trabalhar com o ecossistema OT.
 - **Entregáveis**:
   - definição clara do uso de Canary, OTClient e RME
   - checklist de ambiente e ferramentas
   - documentação das dependências principais
 - **O que ainda não entra**:
   - customizações profundas no código-fonte
-  - sistemas de Batalha
+  - sistemas de batalha
   - mapa jogável completo
 
 ## Fase 3: Bootstrap de servidor, cliente e mapa
@@ -31,7 +31,7 @@
   - documentação de como essas partes se conectam
 - **O que ainda não entra**:
   - polimento visual
-  - conteúlho extenso
+  - conteúdo extenso
   - progressão completa de jogo
 
 ## Fase 4: Primeiro loop jogável
@@ -43,17 +43,17 @@
   - primeira interação jogável essencial
 - **O que ainda não entra**:
   - grande quantidade de criaturas
-  - sistemas avancados
+  - sistemas avançados
   - expansão de mundo
 
-## Fase 5: Expansão inicial de المحتãdo
-- **Objetivo**: expandir a base inicial com mais conteúlho coerente com o projeto.
+## Fase 5: Expansão inicial de conteúdo
+- **Objetivo**: expandir a base inicial com mais conteúdo coerente com o projeto.
 - **Entregáveis**:
   - novos mapas secundários
   - NPCs básicos
   - scripts Lua iniciais para eventos e interações
   - primeiros recursos visuais temáticos
-- **O que ainda não enters**:
+- **O que ainda não entra**:
   - campanha extensa
-  - conteúlho massivo
+  - conteúdo massivo
   - sistemas completos de endgame
