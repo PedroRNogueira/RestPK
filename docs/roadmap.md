@@ -1,40 +1,59 @@
 # Roadmap
 
-## Fase 1: Fundação do Projeto
-- **Objetivo**: Alinhar visão, escopo e equipe, criar estrutura básica de código e documentação inicial.
+## Fase 1: Fundação do projeto
+- **Objetivo**: consolidar a visão do RestPK, alinhar o escopo inicial e organizar a base documental do projeto.
 - **Entregáveis**:
-  - Repositório vazio com README de boas-vindas.
-  - Estrutura de pastas básica (src/, docs/).
-  - Licença e CONTRIBUTING.
-- **O que não entra**: Implementação de funcionalidades, testes de integração.
+  - README revisado e coerente com o projeto.
+  - Documentos de visão, roadmap e setup preenchidos.
+  - Regras do projeto definidas para trabalho incremental com agente.
+- **O que ainda não entra**:
+  - implementação de gameplay
+  - integração real de servidor e cliente
+  - criação de conteúdo jogável
 
-## Fase 2: Setup Técnico da Stack
-- **Objetivo**: Montar a base tecnológica (CI, lint, format, dependências iniciais).
+## Fase 2: Setup técnico da stack OT
+- **Objetivo**: documentar e preparar o ambiente técnico nécessário para trabalhar com o ecossistema OT.
 - **Entregáveis**:
-  - Scripts de build e lint.
-  - Arquivos de configuração (package.json, .editorconfig).
-  - Pipeline de CI mínima.
-- **O que não entra**: Política de release, documentação avançada.
+  - definição clara do uso de Canary, OTClient e RME
+  - checklist de ambiente e ferramentas
+  - documentação das dependências principais
+- **O que ainda não entra**:
+  - customizações profundas no código-fonte
+  - sistemas de Batalha
+  - mapa jogável completo
 
-## Fase 3: Bootstrap de Server/Client/Map
-- **Objetivo**: Estabelecer comunicação básica entre servidor e cliente.
+## Fase 3: Bootstrap de servidor, cliente e mapa
+- **Objetivo**: preparar a base mínima para o projeto rodar tecnicamente com servidor, cliente e mapa.
 - **Entregáveis**:
-  - Servidor protótipo rodando.
-  - Cliente que consome API de forma simples.
-  - Modelo de mapa mínimo funcional.
-- **O que não entra**: Mecânicas de jogo, otimizações.
+  - estrutura inicial para servidor
+  - estrutura inicial para cliente
+  - base inicial para arquivos de mapa
+  - documentação de como essas partes se conectam
+- **O que ainda não entra**:
+  - polimento visual
+  - conteúlho extenso
+  - progressão completa de jogo
 
-## Fase 4: Primeiro Loop Jogável
-- **Objetivo**: Construir um rudimento de jogo jogável com movimentação e interações simples.
+## Fase 4: Primeiro loop jogável
+- **Objetivo**: criar o primeiro fluxo mínimo jogável do projeto.
 - **Entregáveis**:
-  - Sistema de entrada e renderização.
-  - Loop de jogo funcional.
-  - Feedback básico de usuário.
-- **O que não entra**: Todos os recursos de gameplay avançados.
+  - entrada no jogo
+  - movimentação básica
+  - primeiro mapa funcional
+  - primeira interação jogável essencial
+- **O que ainda não entra**:
+  - grande quantidade de criaturas
+  - sistemas avancados
+  - expansão de mundo
 
-## Fase 5: Expansão Inicial de Conteúdo
-- **Objetivo**: Expandir o mundo e os itens ativos.
+## Fase 5: Expansão inicial de المحتãdo
+- **Objetivo**: expandir a base inicial com mais conteúlho coerente com o projeto.
 - **Entregáveis**:
-  - Mapa expansível.
-  - Coletora de recursos e interação.
-- **O que não entra**: Mundos completos, UI avançada.
+  - novos mapas secundários
+  - NPCs básicos
+  - scripts Lua iniciais para eventos e interações
+  - primeiros recursos visuais temáticos
+- **O que ainda não enters**:
+  - campanha extensa
+  - conteúlho massivo
+  - sistemas completos de endgame
