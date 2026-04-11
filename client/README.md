@@ -14,7 +14,7 @@ Este diretório deverá concentrar, futuramente:
 - organização técnica da parte cliente do projeto
 
 ## Estado atual
-Nesta étapa, este diretório ainda é em preparação.
+Nesta etapa, este diretório ainda está em preparação.
 O objetivo atual é apenas registrar com clareza sua função dentro do projeto.
 
 ## O que ainda não entra
