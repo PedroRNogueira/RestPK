@@ -13,6 +13,5 @@
 Restrições obrigatórias:
 - Alterar somente `PROJECT_RULES.md`.
 - Não mexer em nenhum outro arquivo.
-- Não reescrever o texto acima.
 - Não adicionar explicações extras.
 - Não parar em "accept edits".
