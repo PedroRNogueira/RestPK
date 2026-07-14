@@ -1,4 +1,6 @@
 add_executable(restpk_client
+    src/Camera.cpp
+    src/Game.cpp
     src/main.cpp
 )
 
