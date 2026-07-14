@@ -1,28 +1,37 @@
 # Client Directory
 
 ## Objetivo
-Este diretório será a base futura do cliente do RestPK.
 
-## Componente planejado
-A base planejada para este diretório é o **OTClient mehah / OpenTibiaBR**.
+Este diretório será responsável pela camada visual e de interação do RestPK. Uma primeira versão do cliente deverá ser desenvolvida para o protótipo jogável local antes da integração completa do OTClient mehah / OpenTibiaBR e do Canary.
 
-## Função deste diretório
-Este diretório deverá concentrar, futuramente:
-- base do cliente
-- arquivos relacionados à interface visual do jogo
-- estrutura ligada à apresentação, interação e navegação do jogador
-- organização técnica da parte cliente do projeto
+Essa descrição registra apenas a direção planejada. As funcionalidades do protótipo ainda não estão implementadas.
+
+## Primeiro papel planejado
+
+No primeiro marco jogável, o cliente deverá:
+
+- abrir a janela do jogo;
+- executar a renderização;
+- capturar entradas de teclado, incluindo WASD e setas direcionais;
+- desenhar um mapa pequeno e seus tiles de chão;
+- desenhar o personagem;
+- controlar uma câmera que acompanhe o jogador;
+- apresentar o estado recebido da lógica local.
+
+Animações e uma interface visual mais completa poderão ser incorporadas em etapas futuras.
+
+## Separação de responsabilidades
+
+O cliente deverá cuidar da apresentação e da entrada, sem concentrar a validação das regras do mundo. Estado do mundo, posição válida do jogador, movimento, colisões, limites do mapa e estado das entidades deverão permanecer na lógica local de `backend/`.
+
+Os contratos necessários à comunicação entre apresentação e lógica deverão permanecer independentes de bibliotecas gráficas e de detalhes específicos do Canary, conforme a direção de `shared/`. Assim, a futura integração do Canary poderá substituir ou adaptar a lógica local sem exigir uma reestruturação completa do cliente.
+
+## Stack futura
+
+O OTClient mehah / OpenTibiaBR continua sendo a base planejada para o cliente final no ecossistema OpenTibia. Sua importação completa ocorrerá em uma etapa posterior e não faz parte da fase documental atual.
 
 ## Estado atual
-Nesta etapa, este diretório ainda está em preparação.
-O objetivo atual é apenas registrar com clareza sua função dentro do projeto.
 
-## O que ainda não entra
-- importação completa da base do cliente
-- build do cliente
-- interface final
-- gameplay
-- customizações visuais profundas
+O diretório ainda está em preparação. Nesta etapa, não há implementação de gameplay, código C++, build, biblioteca gráfica, importação do OTClient ou integração com o Canary.
 
-## Observação
-Este arquivo existe para evitar ambiguidade sobre a finalidade do diretório `client/` antes do bootstrap técnico real.
+Também permanecem fora deste primeiro marco a interface final, os assets finais e os sistemas avançados de gameplay.
